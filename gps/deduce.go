@@ -727,6 +727,7 @@ func (dc *deductionCoordinator) deduceMirrorPaths(path string, uri *url.URL) (pd
 		"google.golang.org/appengine": "github.com/golang/appengine",
 		"google.golang.org/appengine/cloudsql": "github.com/golang/appengine",
 		"google.golang.org/api/option": "github.com/google/google-api-go-client/option",
+		"google.golang.org/api/iterator": "github.com/google/google-api-go-client/iterator",
 		"cloud.google.com/go": "github.com/GoogleCloudPlatform/google-cloud-go",
 	}
 
